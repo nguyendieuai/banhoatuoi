@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <form method="POST" action="{{ route('hoadon.store')}}">
+    <form method="POST" action="{{ route('khachhang.store')}}">
         {{ csrf_field() }}
-        <label>{{ trans('bill.label.diachi')}}</label></br>
+        <label>{{ trans('khachhang.label.diachi')}}</label></br>
         <input name="diachi"></br>
 
         @if ($errors->has('diachi'))
@@ -19,7 +19,7 @@
         </span>
         @endif
 
-        <label>{{ trans('bill.label.sodienthoai')}}</label></br>
+        <label>{{ trans('khachhang.label.sodienthoai')}}</label></br>
         <input name="sodienthoai"></br>
 
         @if ($errors->has('sodienthoai'))
@@ -28,7 +28,7 @@
         </span>
         @endif
 
-        <label>{{ trans('bill.label.email')}}</label></br>
+        <label>{{ trans('khachhang.label.email')}}</label></br>
         <input name="email"></br>
 
         @if ($errors->has('email'))

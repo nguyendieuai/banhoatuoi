@@ -6,9 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    {{ $khachhang->id }} - 
-    {{ $khachhang->diachi}} -
-    {{ $khachhang->sodienthoai}} -
-    {{ $khachhang->email}} -
+    {{ $sanpham->id }} - 
+    {{ $sanpham->ten}} -
+    {{ $sanpham->anh}} -
+    {{ $sanpham->gia}} -
+    {{ $sanpham->soluong}} -
 </body>
 </html>

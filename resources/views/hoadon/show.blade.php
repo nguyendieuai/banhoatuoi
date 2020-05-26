@@ -6,12 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    {{ $bill->id }} - 
-    {{ $bill->gia}} -
-    {{ $bill->ngaylaphoadon}} -
-    {{ $bill->diachigiaohanghang}} -
-    {{ $bill->ghichu}} -
-    {{ $bill->khachhang_id}} -
-    {{ $bill->nhanvien_id}}
+    {{ $hoadon->id }} - 
+    {{ $hoadon->gia}} -
+    {{ $hoadon->ngaylaphoadon}} -
+    {{ $hoadon->diachigiaohanghang}} -
+    {{ $hoadon->ghichu}} -
+    {{ $hoadon->khachhang_id}} -
+    {{ $hoadon->nhanvien_id}}
 </body>
 </html>

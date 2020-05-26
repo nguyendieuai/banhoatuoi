@@ -8,12 +8,13 @@
 <body>
     <table>
         <tbody>
-        @foreach($khachhang as $khachhang)
+        @foreach($sanpham as $sanpham)
             <tr>
-                <td>{{$khachhang->id}}</td>
-                <td>{{$khachhang->diachi}}</td>
-                <td>{{$khachhang->sodienthoai}}</td>
-                <td>{{$khachhang->email}}</td>
+                <td> {{$sanpham->id}}</td>
+                <td> {{$sanpham->ten}}</td>
+                <td> {{$sanpham->anh}}</td>
+                <td> {{$sanpham->gia}}</td>
+                <td> {{$sanpham->soluong}}</td>
             </tr>
         @endforeach
         </tbody>
